@@ -1,0 +1,22 @@
+Product: Integration tests for WSO2 ESB AS4 connector
+
+Pre-requisites:
+
+ - Maven 3.x
+ - Java 1.6 or above
+
+Tested Platform: 
+
+ - UBUNTU 16.04
+ - ESB 5.0.0
+
+Steps to follow in setting integration test.
+
+ 1. Download WSO2 ESB 5.0.0 from official site. Extract the ESB and put "-XX:-UseSplitVerifier" under $JVM_MEM_OPTS into {ESB_HOME}/bin/wso2server.sh
+    (If you use java 1.8 put -noverify.)
+
+ 2. Create a folder named pmodes under the <ESB_HOME>/conf/ directory and place the default P-Mode configuration files.
+    You can find it in the {ESB_Connector_Home}/src/test/resources/pmode.
+          
+ 3. Navigate to "{ESB_Connector_Home}/" and run the following command.
+         $ mvn clean install
