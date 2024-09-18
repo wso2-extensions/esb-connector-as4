@@ -4,7 +4,7 @@
     "category": "Other",
     "documentationUrl": "https://docs.wso2.com/display/ESBCONNECTORS/AS4+Connector",
     "description": "The AS4 connector is compliant with the AS4 minimal client conformance profile defined in the AS4 profile of ebMS 3.0. It allows exchanging any type of payload (e.g., XML, JSON, Binary, etc.) as SOAP attachments or SOAP body payloads.",
-    "status": "Active",
+    "status": "Inactive",
     "labels": [
         "connector"
     ],
@@ -12,7 +12,7 @@
         {
             "tagName": "v1.0.0",
             "products": [
-                "\"EI 6.1.1\""
+                "EI 6.1.1"
             ],
             "isHidden": false
         }
